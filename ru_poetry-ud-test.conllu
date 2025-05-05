@@ -1773,7 +1773,7 @@
 9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 10	один	один	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	obl:float	_	_
 11	владел	владеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
-12	двумя	два	NUM	_	Case=Ins|NumForm=Word|NumType=Card	13	nummod	_	_
+12	двумя	два	NUM	_	Case=Ins|Gender=Masc|NumForm=Word|NumType=Card	13	nummod	_	_
 13	дарами	дар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 14	:	:	PUNCT	_	_	17	punct	_	<br/>
 15	В	в	ADP	_	_	16	case	_	before=<line_meter="Я5ж"/>
@@ -2091,7 +2091,7 @@
 1	Но	но	CCONJ	_	_	4	cc	_	before=<se><line_meter="Я4ж"/>
 2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 3	не	не	PART	_	Polarity=Neg	4	advmod	_	_
-4	больно	больный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	больно	больной	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
 5	было	быть	AUX	_	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
 6	б	б	AUX	_	Mood=Cnd	4	aux	_	_
 7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -2996,7 +2996,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	<br/>
 18	Неведомое	неведомый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	acl	_	before=<line_meter="Я6м"/>
 19	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
-20	дотоле	дотоле	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	дотоле	дотоле	ADV	_	Degree=Pos|PronType=Dem	18	advmod	_	pos="ADVPRO"|SpaceAfter=No
 21	,	,	PUNCT	_	_	18	punct	_	_
 22	ощутил	ощутить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 23	:	:	PUNCT	_	_	35	punct	_	<br/>
@@ -5670,7 +5670,7 @@
 2	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	кубок	кубок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	ныне	ныне	ADV	_	Degree=Pos	6	advmod	_	_
+5	ныне	ныне	ADV	_	Degree=Pos|PronType=Dem	6	advmod	_	pos="ADVPRO"|_
 6	врученный	вручить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	17	punct	_	_
@@ -6182,7 +6182,7 @@
 7	всеми	все	PRON	_	Animacy=Anim|Case=Ins|Number=Plur|PronType=Tot	8	obl:agent	_	_
 8	позабыт	позабыть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	_
 9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
-10	ныне	ныне	ADV	_	Degree=Pos	8	advmod	_	before=<rhyme-zone/>|SpaceAfter=No
+10	ныне	ныне	ADV	_	Degree=Pos|PronType=Dem	8	advmod	_	pos="ADVPRO"|before=<rhyme-zone/>|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	</se></p>
 
 # newpar
@@ -10559,7 +10559,7 @@
 1	Что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	2	nsubj:pass	_	before=<se><line_meter="Ан3ж"/>
 2	написано	написать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	ccomp	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
-4	по	по	ADP	_	_	9	advmod	_	_
+4	по	по	ADP	_	ExtPos=ADV	9	advmod	_	_
 5	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	fixed	_	_
 6	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	fixed	_	before=<rhyme-zone/>|after=<br/>
 7	в	в	ADP	_	_	9	case	_	before=<line_meter="Ан3м"/>
@@ -11030,7 +11030,7 @@
 # sent_id = xx__gumilev__gumil-488-1
 # text = Я до сих пор не позабыл Цветов в задумчивом раю, Песнь ангелов и блеск их крыл, Ее, избранницу мою.
 1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	before=<p_class="verse"><line_meter="Я4м"/><se>
-2	до	до	ADP	_	_	6	advmod	_	_
+2	до	до	ADP	_	ExtPos=ADV	6	advmod	_	_
 3	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	2	fixed	_	_
 4	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	fixed	_	_
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
@@ -12198,7 +12198,7 @@
 18	;	;	PUNCT	_	_	21	punct	_	<br/>
 19	Но	но	CCONJ	_	_	21	cc	_	before=<line_meter="Д6ж 0*2*2*2*2*2*1"/>
 20	--	--	PUNCT	_	_	21	punct	_	_
-21	до	до	ADP	_	_	13	advmod	_	_
+21	до	до	ADP	_	ExtPos=ADV	13	advmod	_	_
 22	поры	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	fixed	_	_
 23	и	и	CCONJ	_	_	21	fixed	_	_
 24	до	до	ADP	_	_	21	fixed	_	_
@@ -12671,9 +12671,9 @@
 4	--	--	PUNCT	_	_	7	punct	_	_
 5	а	а	CCONJ	_	_	7	cc	_	_
 6	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
-7	смешно	смешный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	_
+7	смешно	смешной	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	_
 8	и	и	CCONJ	_	_	9	cc	_	_
-9	нежно	нежно	ADV	_	Degree=Pos	7	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+9	нежно	нежный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 10	:	:	PUNCT	_	_	12	punct	_	<br/>
 11	Как	как	ADV	_	Degree=Pos|PronType=Exc	12	advmod	_	before=<line_meter="Я6м"/>
 12	мил	милый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	parataxis	_	_
