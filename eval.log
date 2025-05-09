@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Russian-Poetry:
-commit 89904c443103c50d6b2214afa500f215837b31fe
+commit b1fd222da55f8301dc0b077c6cbc21bee7af94f5
+Merge: 8c90afe 40c527f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:22:02 2024 +0200
 Size: counted 64112 of 64112 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.32126310778758.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,44 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 40162 out of 64112 total words have one or more features.
+Features: 40171 out of 64112 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        266
-Udapi: found 266 bugs.
+               TOTAL        241
+Udapi: found 241 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 64112 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-dev.conllu
-[Line 2152 Sent xix__1860__1860-047-1 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Какой:det --> 2:я:nsubj)
+[Line 1467 Sent xix__homiakov__hom-073-3 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'Но и' does not have the 'ExtPos' feature
+[Line 1940 Sent xix__1860__1860-008-6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Да и' does not have the 'ExtPos' feature
+[Line 3037 Sent xix__1860__1860-137-12 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Что за' does not have the 'ExtPos' feature
+[Line 3557 Sent xix__surikov__surik-189-4 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'Что за' does not have the 'ExtPos' feature
+[Line 3597 Sent xix__surikov__surik-189-7 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'что за' does not have the 'ExtPos' feature
+[Line 3788 Sent xix__surikov__surik-175-3 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'Не то чтобы' does not have the 'ExtPos' feature
+[Line 4110 Sent xx__gorky__gorky-061-9 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'Как можно' does not have the 'ExtPos' feature
+[Line 4631 Sent xx__cvetaeva__cvet1-705-9 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Друг друга' does not have the 'ExtPos' feature
 [Line 4631 Sent xx__cvetaeva__cvet1-705-9 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Друг * друга'
-[Line 6459 Sent xx__blazhenny__blazh-412-3 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:тем:det --> 9:видел:acl)
-Warnings: 3
+[Line 4898 Sent xx__xvostenko__xvost-270-2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'в виде' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 22
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-test.conllu
+[Line 113 Sent xix__plesheev__plesh-029-8 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'друг друга' does not have the 'ExtPos' feature
 [Line 113 Sent xix__plesheev__plesh-029-8 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 16] 'друг * друга'
+[Line 237 Sent xix__sluchevsky__sluc-480-5 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'Потому что' does not have the 'ExtPos' feature
+[Line 2028 Sent xix__kurochkin__kuroch-037-3 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'Сколь возможно' does not have the 'ExtPos' feature
+[Line 3670 Sent xix__1840__1840-140-5 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'самим собой' does not have the 'ExtPos' feature
+[Line 3807 Sent xix__1840__1840-230-3 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'как будто бы' does not have the 'ExtPos' feature
+[Line 3899 Sent xix__1840__1840-230-6 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'как будто' does not have the 'ExtPos' feature
+[Line 4255 Sent xx__pasternak__paster-370-5 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'Друг другу' does not have the 'ExtPos' feature
 [Line 4255 Sent xx__pasternak__paster-370-5 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'Друг * другу'
-Warnings: 2
+[Line 4558 Sent xx__muni__muni-104-5 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 34
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-train.conllu
-[Line 24487 Sent xx__ozup__ozup-120-9 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:все:det --> 20:свете:nmod)
-[Line 24506 Sent xx__ozup__ozup-120-9 Node 35]: [L3 Warning leaf-det] 'det' not expected to have children (35:Тот:det --> 39:единит:acl)
-[Line 34596 Sent xx__prague__prag-634-4 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'друг * друге'
-[Line 40107 Sent xx__earl__earl-044-2 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:иному:det --> 32:найдешь:acl)
-[Line 40543 Sent xx__schepkina-kupernik__kuper-136-3 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:твоего:det --> 14:ненаглядная:vocative)
-[Line 51098 Sent xx__ww2__ww2-009-6 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:Твоей:det --> 9:Отчизна:vocative)
-Warnings: 6
+[Line 2128 Sent xix__ershov__ersh-085-2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'Да и' does not have the 'ExtPos' feature
+[Line 3502 Sent xix__tjutchev__tss-1992-1-6 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'сам себе' does not have the 'ExtPos' feature
+[Line 4540 Sent xix__1880__1880-274-3 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'Какого ни на есть' does not have the 'ExtPos' feature
+[Line 4644 Sent xix__1880__1880-245-5 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
+[Line 5616 Sent xix__1880__1880-154-9 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'всё ж' does not have the 'ExtPos' feature
+[Line 11245 Sent xx__silverage__silver-0856-3 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'Все ж' does not have the 'ExtPos' feature
+[Line 11444 Sent xx__silverage__silver-1209-6 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'друг друга' does not have the 'ExtPos' feature
+[Line 13198 Sent xx__silverage__silver-1215-1 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'потому что' does not have the 'ExtPos' feature
+[Line 13451 Sent xx__silverage__silver-0335-4 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
+[Line 13474 Sent xx__silverage__silver-0335-4 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 54
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.602313108362875) = 0.154439258554583
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.958510107312204) = 0.294926186865293
+(weight=0.307692307692308) * (score{udapi}=0.962409533316696) = 0.296126010251291
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.80870668711406) * (availability=1) * (validity=1) = 0.80870668711406
+(TOTAL score=0.809655127895733) * (availability=1) * (validity=1) = 0.809655127895733
 STARS = 4
-UD_Russian-Poetry	0.80870668711406	4
+UD_Russian-Poetry	0.809655127895733	4
