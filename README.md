@@ -36,6 +36,7 @@ et al. (eds.), Nacional’nyj korpus russkogo jazyka: 2006–2008. Novye rezul�
 Data available since: UD v2.13
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: poetry
 Lemmas: manual native
 UPOS: manual native
