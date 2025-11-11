@@ -51,7 +51,7 @@
 11	,	,	PUNCT	_	_	15	punct	_	<br/>
 12	В	в	ADP	_	_	14	case	_	before=<line_meter="Я4ж"/>
 13	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
-14	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+14	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl:tmod	_	_
 15	облить	облить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
 16	слезами	слеза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	iobj	_	before=<rhyme-zone/>|after=<br/>
 17	И	и	CCONJ	_	_	18	cc	_	before=<line_meter="Я4м"/>
@@ -101,8 +101,8 @@
 2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis:discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	дерзко	дерзко	ADV	_	Degree=Pos	10	advmod	_	_
-5	всё	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	10	obj	_	_
-6	былое	былой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	obj	_	before=<rhyme-zone/>|after=<br/>
+5	всё	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	_
+6	былое	былое	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	before=<rhyme-zone/>|after=<br/>
 7	Тогда	тогда	ADV	_	Degree=Pos|PronType=Dem	10	advmod	_	before=<line_meter="Я4м"/>
 8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 9	вместе	вместе	ADV	_	Degree=Pos	10	advmod	_	_
@@ -110,7 +110,7 @@
 11	,	,	PUNCT	_	_	19	punct	_	<br/>
 12	Хотя	хотя	SCONJ	_	_	19	mark	_	before=<line_meter="Я4ж"/>
 13	украдкой	украдкой	ADV	_	Degree=Pos	19	advmod	_	_
-14	друг	друг	PRON	_	Case=Nom|PronType=Rcp	13	obl	_	_
+14	друг	друг	PRON	_	Case=Nom|ExtPos=NOUN|PronType=Rcp	13	obl	_	_
 15	от	от	ADP	_	_	14	case	_	_
 16	друга	друг	PRON	_	Case=Gen|PronType=Rcp	14	fixed	_	before=<rhyme-zone/>|after=<br/>
 17	Слезу	слеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	before=<line_meter="Я4м"/>
@@ -234,7 +234,7 @@
 11	не	не	PART	_	Polarity=Neg	12	advmod	_	_
 12	обрести	обрести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	<br/>
-14	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	21	mark	_	before=<line_meter="Х6м"/>
+14	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	21	mark	_	before=<line_meter="Х6м"/>
 15	что	что	SCONJ	_	_	14	fixed	_	_
 16	в	в	ADP	_	_	17	case	_	_
 17	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
@@ -1015,7 +1015,7 @@
 8	тебя	ты	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	obl	_	_
 9	в	в	ADP	_	_	11	case	_	_
 10	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	before=<rhyme-zone/>|SpaceAfter=No
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl:tmod	_	before=<rhyme-zone/>|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	</se></p>
 
 # newpar
@@ -1212,7 +1212,7 @@
 # text = В третий раз, мои друзья, Вам пою куплеты я На пиру лицейском.
 1	В	в	ADP	_	_	3	case	_	before=<p_class="verse"><line_meter="Х4м"/><se>
 2	третий	третий	ADJ	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Ord	3	amod	_	_
-3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl:tmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	vocative	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -1286,7 +1286,7 @@
 1	и	и	CCONJ	_	_	8	cc	_	before=<p_class="verse"><line_meter="Х4м"/><se>
 2	в	в	ADP	_	_	4	case	_	_
 3	четвертый	четвертый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Ord	4	amod	_	_
-4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl:tmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	vocative	_	before=<rhyme-zone/>|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	<br/>
@@ -1340,9 +1340,9 @@
 # text = В последний раз в семестре этом -- Пускай за деньги -- так и быть -- Я притворяюся поэтом И вас могу благодарить; Не раз, не два вы прогоняли Мои карманные печали И тайным подвигом добра И дух и здравие пера Певцу-студенту оживляли.
 1	В	в	ADP	_	_	3	case	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl:tmod	_	_
 4	в	в	ADP	_	_	5	case	_	_
-5	семестре	семестр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+5	семестре	семестр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl:tmod	_	_
 6	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	before=<rhyme-zone/>
 7	--	--	PUNCT	_	_	10	punct	_	<br/>
 8	Пускай	пускай	PART	_	_	10	advmod	_	before=<line_meter="Я4м"/>
@@ -1497,7 +1497,7 @@
 1	«	«	PUNCT	_	_	7	punct	_	before=<p_class="h1"><se>|SpaceAfter=No
 2	В	в	ADP	_	_	4	case	_	_
 3	былые	былой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
-4	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obl	_	_
+4	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obl:tmod	_	_
 5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 7	любила	любить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -1509,7 +1509,7 @@
 # text = В былые времена она меня любила И тайно обо мне подругам говорила, Смущенная и очи опустя, Как перед матерью виновное дитя.
 1	В	в	ADP	_	_	3	case	_	before=<p_class="verse"><line_meter="Я6ж"/><se>
 2	былые	былой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
-3	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
+3	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obl:tmod	_	_
 4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	любила	любить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<rhyme-zone/>|after=<br/>
@@ -1720,7 +1720,7 @@
 4	вместив	вместить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	root	_	_
 5	в	в	ADP	_	_	6	case	_	_
 6	себе	себя	PRON	_	Case=Loc|PronType=Prs|Reflex=Yes	4	obl	_	_
-7	природы	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	природы	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 8	...	...	PUNCT	_	_	4	punct	_	SpaceAfter=No
 9	»	»	PUNCT	_	_	4	punct	_	</se></p>
 
@@ -1732,7 +1732,7 @@
 3	вместив	вместить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	acl	_	_
 4	в	в	ADP	_	_	5	case	_	_
 5	себе	себя	PRON	_	Case=Loc|PronType=Prs|Reflex=Yes	3	obl	_	_
-6	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	before=<rhyme-zone/>|SpaceAfter=No
+6	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	<br/>
 8	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	before=<line_meter="Я5м"/>
 9	был	быть	AUX	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
@@ -2026,7 +2026,7 @@
 11	на	на	ADP	_	_	12	case	_	_
 12	свете	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	before=<rhyme-zone/>|after=<br/>
 13	Сколь	сколь	ADV	_	Degree=Pos|PronType=Rel	15	advmod	_	before=<line_meter="Х4м"/>
-14	возможно	возможный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	fixed	_	_
+14	возможно	возможный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	obl:pronmod	_	_
 15	больше	много	ADV	_	Degree=Cmp|PronType=Tot	16	advmod	_	_
 16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl:tmod	_	before=<rhyme-zone/>|after=<br/>
 17	В	в	ADP	_	_	18	case	_	before=<line_meter="Х4ж"/>
@@ -2169,7 +2169,7 @@
 4	малины	малина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	<br/>
 6	В	в	ADP	_	_	7	case	_	before=<line_meter="Х4м"/>
-7	полдень	полдень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+7	полдень	полдень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl:tmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	часто	часто	ADV	_	Degree=Pos	11	advmod	_	_
 10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
@@ -2219,7 +2219,7 @@
 26	дум	дума	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 27	,	,	PUNCT	_	_	32	punct	_	<br/>
 28	До	до	ADP	_	_	29	case	_	before=<line_meter="Х4ж"/>
-29	чего	что	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	32	obl	_	_
+29	чего	что	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	32	obl:tmod	_	_
 30	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	32	iobj	_	_
 31	всем	весь	DET	_	Case=Dat|Number=Plur|PronType=Tot	30	det	_	_
 32	далеко	далекий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	acl:relcl	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -2479,7 +2479,7 @@
 16	;	;	PUNCT	_	_	17	punct	_	<br/>
 17	Поболтали	поболтать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	before=<line_meter="Х4м"/>
 18	с	с	ADP	_	_	19	case	_	_
-19	полчаса	полчаса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obl	_	before=<rhyme-zone/>|SpaceAfter=No
+19	полчаса	полчаса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obl:tmod	_	before=<rhyme-zone/>|SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	</se></p>
 
 # newpar
@@ -2703,7 +2703,7 @@
 12	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	before=<rhyme-zone/>|after=<br/>
 13	Скромно	скромно	ADV	_	Degree=Pos	10	advmod	_	before=<line_meter="Х3ж"/>
 14	в	в	ADP	_	_	15	case	_	_
-15	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+15	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl:tmod	_	_
 16	досуга	досуг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 17	...	...	PUNCT	_	_	10	punct	_	</se></p>
 
@@ -3105,7 +3105,7 @@
 # sent_id = xix__1840__1840-012-4
 # text = На дне души схоронена глубоко Прошедших лет безумная любовь; Она без слез уснула одиноко, И тихо спит, и не проснется вновь.
 1	На	на	ADP	_	_	2	case	_	before=<p_class="verse"><line_meter="Я5ж"/><se>
-2	дне	дно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+2	дне	дно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl:tmod	_	_
 3	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	схоронена	схоронить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 5	глубоко	глубоко	ADV	_	Degree=Pos	4	advmod	_	before=<rhyme-zone/>|after=<br/>
@@ -3667,7 +3667,7 @@
 14	счастье	счастье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
 15	быть	быть	AUX	_	VerbForm=Inf|Voice=Act	17	cop	_	_
 16	всегда	всегда	ADV	_	Degree=Pos|PronType=Tot	17	advmod	_	_
-17	самим	сам	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Emp	14	csubj	_	_
+17	самим	сам	DET	_	Case=Ins|ExtPos=NOUN|Gender=Masc|Number=Sing|PronType=Emp	14	csubj	_	_
 18	собой	себя	PRON	_	Case=Ins|PronType=Prs|Reflex=Yes	17	fixed	_	before=<rhyme-zone/>|SpaceAfter=No
 19	!..	!..	PUNCT	_	_	8	punct	_	</se></p><p_class="date"><noindex>1858</noindex></p>
 
@@ -3782,7 +3782,7 @@
 19	в	в	ADP	_	_	20	case	_	_
 20	тебя	ты	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	obl	_	_
 21	на	на	ADP	_	_	22	case	_	_
-22	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+22	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl:tmod	_	_
 23	влюбиться	влюбиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	</se></p>
 
@@ -3804,7 +3804,7 @@
 13	начинаешь	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 14	:	:	PUNCT	_	_	19	punct	_	<br/>
 15	Ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	before=<line_meter="Ан3м"/>
-16	как	как	ADV	_	Degree=Pos|PronType=Rel	19	advmod	_	_
+16	как	как	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	19	advmod	_	_
 17	будто	будто	PART	_	_	16	fixed	_	_
 18	бы	бы	PART	_	_	16	fixed	_	_
 19	любишь	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
@@ -3896,7 +3896,7 @@
 17	хочешь	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	before=<rhyme-zone/>|SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	<br/>
 19	И	и	CCONJ	_	_	23	cc	_	before=<line_meter="Ан3м"/>
-20	как	как	ADV	_	Degree=Pos|PronType=Rel	23	advmod	_	_
+20	как	как	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	23	advmod	_	_
 21	будто	будто	PART	_	_	20	fixed	_	_
 22	другим	другой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	23	iobj	_	_
 23	занята	занять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	conj	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -4252,7 +4252,7 @@
 5	во	во	ADP	_	_	6	case	_	_
 6	сне	сон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	before=<rhyme-zone/>|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	<br/>
-8	Друг	друг	PRON	_	Case=Nom|PronType=Rcp	11	obl	_	before=<line_meter="Я4ж"/>
+8	Друг	друг	PRON	_	Case=Nom|ExtPos=NOUN|PronType=Rcp	11	obl	_	before=<line_meter="Я4ж"/>
 9	к	к	ADP	_	_	8	case	_	_
 10	другу	друг	PRON	_	Case=Dat|PronType=Rcp	8	fixed	_	_
 11	тянутся	тянуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
@@ -4282,7 +4282,7 @@
 8	,	,	PUNCT	_	_	12	punct	_	<br/>
 9	И	и	CCONJ	_	_	12	cc	_	before=<line_meter="Я4м"/>
 10	дольше	долго	ADV	_	Degree=Cmp	12	advmod	_	_
-11	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+11	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl:tmod	_	_
 12	длится	длиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 13	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	<br/>
@@ -4467,7 +4467,7 @@
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	/	/	PUNCT	_	_	8	punct	_	_
 5	Сквозь	сквозь	ADP	_	_	6	case	_	_
-6	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+6	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl:tmod	_	_
 7	беспощадно	беспощадно	ADV	_	Degree=Pos	8	advmod	_	_
 8	гоня	гнать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	before=<rhyme-zone/>|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	<br/>
@@ -4506,7 +4506,7 @@
 9	молодость	молодость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 10	вспомнить	вспомнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
 11	на	на	ADP	_	_	12	case	_	_
-12	миг	миг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	before=<rhyme-zone/>|SpaceAfter=No
+12	миг	миг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl:tmod	_	before=<rhyme-zone/>|SpaceAfter=No
 13	…	…	PUNCT	_	_	10	punct	_	<br/>
 14	Так	так	ADV	_	Degree=Pos|PronType=Dem	15	advmod	_	before=<line_meter="Ан4м"/>
 15	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4555,7 +4555,7 @@
 
 # sent_id = xx__muni__muni-104-5
 # text = Как будто птицы налетели Со всех концов, со всех сторон.
-1	Как	как	ADV	_	Degree=Pos|PronType=Rel	4	mark	_	before=<se><line_meter="Я4ж"/>
+1	Как	как	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Rel	4	mark	_	before=<se><line_meter="Я4ж"/>
 2	будто	будто	PART	_	_	1	fixed	_	_
 3	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	налетели	налететь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<rhyme-zone/>|after=<br/>
@@ -4752,7 +4752,7 @@
 5	латник	латник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	<br/>
 7	Поднявший	поднять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	before=<line_meter="Дк3м 1*2*1*0"/>
-8	меча	меч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obj	_	_
+8	меча	меч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 9	тягло	тягло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 10	...	...	PUNCT	_	_	2	punct	_	</se><br/>
 
@@ -4766,7 +4766,7 @@
 6	битве	битва	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
 7	братней	братний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	before=<rhyme-zone/>|after=<br/>
 8	В	в	ADP	_	_	9	case	_	before=<line_meter="Дк3м 1*2*1*0"/>
-9	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+9	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl:tmod	_	_
 10	позади	позади	ADV	_	Degree=Pos	11	advmod	_	_
 11	легло	лечь	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<rhyme-zone/>|SpaceAfter=No
 12	!	!	PUNCT	_	_	11	punct	_	</se></p>
@@ -4834,7 +4834,7 @@
 # sent_id = xx__nesmelov__nesmel-346-7
 # text = И все же он сделал много -- Он тайну, сгибаясь, нес.
 1	И	и	CCONJ	_	_	5	cc	_	before=<p_class="verse"><line_meter="Дк3ж 1*2*1*1"/><se>
-2	все	всё	ADV	_	Degree=Pos|PronType=Tot	5	advmod	_	_
+2	все	всё	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Tot	5	advmod	_	_
 3	же	же	PART	_	_	2	fixed	_	_
 4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	сделал	сделать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4897,7 +4897,7 @@
 # text = В тот день отчетливей и резче Труба под солнцем протрубит, И древле связанные вещи Сойдут с расплавленных орбит.
 1	В	в	ADP	_	_	3	case	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	тот	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl:tmod	_	_
 4	отчетливей	отчетливо	ADV	_	Degree=Cmp	10	advmod	_	_
 5	и	и	CCONJ	_	_	6	cc	_	_
 6	резче	резко	ADV	_	Degree=Cmp	4	conj	_	before=<rhyme-zone/>|after=<br/>
@@ -5958,7 +5958,7 @@
 # text = И до утра скрипели скрипки, -- Был ярок пир в потухшей стороне.
 1	И	и	CCONJ	_	_	4	cc	_	before=<se><line_meter="Я4ж"/>
 2	до	до	ADP	_	_	3	case	_	_
-3	утра	утро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	утра	утро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl:tmod	_	_
 4	скрипели	скрипеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	скрипки	скрипка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -6005,7 +6005,7 @@
 6	Был	быть	AUX	_	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	before=<line_meter="Я5ж"/>
 7	с	с	ADP	_	_	9	case	_	_
 8	каждым	каждый	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	9	det	_	_
-9	мигом	миг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+9	мигом	миг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl:tmod	_	_
 10	громче	громкий	ADJ	_	Degree=Cmp	0	root	_	_
 11	и	и	CCONJ	_	_	12	cc	_	_
 12	крылатей	крылатый	ADJ	_	Degree=Cmp	10	conj	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -6139,7 +6139,7 @@
 # newpar
 # sent_id = xx__mezhirov__mezh-054-1
 # text = При помощи гоп-стопа врасплох, из-за угла Восточная Европа отстегнута была...
-1	При	при	ADP	_	_	3	case	_	before=<p_class="verse"><line_meter="Я3ж"/><se>
+1	При	при	ADP	_	ExtPos=ADP	3	case	_	before=<p_class="verse"><line_meter="Я3ж"/><se>
 2	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
 3	гоп-стопа	гоп-стоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	before=<rhyme-zone/>|after=<br/>
 4	врасплох	врасплох	ADV	_	Degree=Pos	10	advmod	_	before=<line_meter="Я3м"/>|SpaceAfter=No
@@ -6303,7 +6303,7 @@
 21	кто	кто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
 22	тонет	тонуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	csubj	_	_
 23	во	во	ADP	_	_	24	case	_	_
-24	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+24	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl:tmod	_	_
 25	--	--	PUNCT	_	_	26	punct	_	_
 26	инок	инок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	before=<rhyme-zone/>|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	<br/>
@@ -6375,7 +6375,7 @@
 11	или	или	CCONJ	_	_	12	cc	_	before=<rhyme-zone/>|after=<br/>
 12	тонут	тонуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	before=<line_meter="Д5ж"/>
 13	во	во	ADP	_	_	14	case	_	_
-14	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+14	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl:tmod	_	_
 15	--	--	PUNCT	_	_	16	punct	_	_
 16	трое	трое	NUM	_	Case=Nom|NumForm=Word|NumType=Sets	3	nsubj	_	_
 17	с	с	ADP	_	_	19	case	_	_
@@ -6665,9 +6665,9 @@
 # text = Как, только и всего?
 1	Как	как	ADV	_	Degree=Pos|PronType=Int	0	root	_	before=<se>|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	только	только	PART	_	_	1	conj	_	_
+3	только	только	PART	_	ExtPos=PART	1	conj	_	_
 4	и	и	CCONJ	_	_	3	fixed	_	_
-5	всего	всё	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	1	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+5	всего	всё	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	3	fixed	_	before=<rhyme-zone/>|SpaceAfter=No
 6	?	?	PUNCT	_	_	1	punct	_	</se></p>
 
 # newpar
@@ -6848,7 +6848,7 @@
 6	ветер	ветер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	тихонько	тихонько	ADV	_	Degree=Pos	8	advmod	_	_
 8	прядет	прясть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	before=<rhyme-zone/>|after=<br/>
-9	тумана	туман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obj	_	before=<line_meter="Аф3м 1*2*2*0"/>
+9	тумана	туман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	before=<line_meter="Аф3м 1*2*2*0"/>
 10	холодную	холодный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	муть	муть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	before=<rhyme-zone/>|after=<br/>
 12	в	в	ADP	_	_	14	case	_	before=<line_meter="Аф3м 1*2*2*0"/>
@@ -7134,25 +7134,25 @@
 6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	одни	один	DET	_	Case=Nom|Number=Plur|PronType=Ind	3	parataxis	_	before=<rhyme-zone/>|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	<br/>
-9	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	12	mark	_	before=<line_meter="Х5м"/>
+9	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	12	mark	_	before=<line_meter="Х5м"/>
 10	что	что	SCONJ	_	_	9	fixed	_	_
 11	у	у	ADP	_	_	12	case	_	_
 12	тебя	ты	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	7	advcl	_	_
 13	беда	беда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	<br/>
-15	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	18	mark	_	before=<line_meter="Х5м"/>
+15	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	18	mark	_	before=<line_meter="Х5м"/>
 16	что	что	SCONJ	_	_	15	fixed	_	_
 17	на	на	ADP	_	_	18	case	_	_
 18	тебе	ты	PRON	_	Case=Loc|Number=Sing|Person=2|PronType=Prs	12	conj	_	_
 19	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	<br/>
-21	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	25	mark	_	before=<line_meter="Х5м"/>
+21	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	25	mark	_	before=<line_meter="Х5м"/>
 22	что	что	SCONJ	_	_	21	fixed	_	_
 23	твой	твой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
 25	другой	другой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	12	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	<br/>
-27	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	30	mark	_	before=<line_meter="Х5м"/>
+27	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	30	mark	_	before=<line_meter="Х5м"/>
 28	что	что	SCONJ	_	_	27	fixed	_	_
 29	у	у	ADP	_	_	30	case	_	_
 30	других	другой	DET	_	Case=Gen|Number=Plur|PronType=Tot	25	obl	_	_
@@ -7394,7 +7394,7 @@
 3	четче	четко	ADV	_	Degree=Cmp	2	advmod	_	_
 4	с	с	ADP	_	_	6	case	_	_
 5	каждым	каждый	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	_
-6	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	before=<rhyme-zone/>
+6	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl:tmod	_	before=<rhyme-zone/>
 7	--	--	PUNCT	_	_	9	punct	_	<br/>
 8	Не	не	PART	_	Polarity=Neg	9	advmod	_	before=<line_meter="Я4м"/>
 9	сердцем	сердце	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	iobj	_	SpaceAfter=No
@@ -7766,7 +7766,7 @@
 3	толстый	толстый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	_
 4	остался	остаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 5	на	на	ADP	_	_	6	case	_	_
-6	дне	дно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	before=<rhyme-zone/>|SpaceAfter=No
+6	дне	дно	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl:tmod	_	before=<rhyme-zone/>|SpaceAfter=No
 7	;	;	PUNCT	_	_	9	punct	_	<br/>
 8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	before=<line_meter="Аф4м 1*2*2*2*0"/>
 9	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -7830,7 +7830,7 @@
 6	,	,	PUNCT	_	_	11	punct	_	<br/>
 7	а	а	CCONJ	_	_	11	cc	_	before=<line_meter="Ан3м 2*2*2*0"/>
 8	хорошее	хороший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	obj	_	_
-9	вряд	вряд	ADV	_	Degree=Pos	11	advmod	_	_
+9	вряд	вряд	ADV	_	Degree=Pos|ExtPos=ADV	11	advmod	_	_
 10	ли	ли	PART	_	_	9	fixed	_	_
 11	смогу	смочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	</se><br/>
@@ -7842,7 +7842,7 @@
 3	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	/	/	PUNCT	_	_	12	punct	_	_
-6	будто	будто	SCONJ	_	_	12	mark	_	_
+6	будто	будто	SCONJ	_	ExtPos=SCONJ	12	mark	_	_
 7	бы	бы	PART	_	_	6	fixed	_	_
 8	по	по	ADP	_	_	9	case	_	before=<rhyme-zone/>
 9	лесу	лес	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	<br/>
@@ -7870,7 +7870,7 @@
 3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 4	--	--	PUNCT	_	_	8	punct	_	_
 5	/	/	PUNCT	_	_	8	punct	_	_
-6	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	det	_	_
+6	что	что	PRON	_	Animacy=Inan|Case=Nom|ExtPos=DET|Gender=Neut|Number=Sing|PronType=Rel	8	det	_	_
 7	за	за	ADP	_	_	6	fixed	_	_
 8	цветы	цветок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	before=<rhyme-zone/>|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	</se><br/>
@@ -8380,7 +8380,7 @@
 23	в	в	ADP	_	_	26	case	_	_
 24	какой	какой	DET	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	26	det	_	_
 25	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
-26	век	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
+26	век	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl:tmod	_	_
 27	живу	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	ccomp	_	before=<rhyme-zone/>|SpaceAfter=No
 28	!	!	PUNCT	_	_	21	punct	_	</se></p><p_class="date"><noindex>1963</noindex></p>
 
@@ -8422,7 +8422,7 @@
 25	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	стороной	сторона	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	iobj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
-28	а	а	CCONJ	_	_	30	cc	_	_
+28	а	а	CCONJ	_	ExtPos=CCONJ	30	cc	_	_
 29	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	28	fixed	_	_
 30	обратной	обратный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 31	.	.	PUNCT	_	_	1	punct	_	</se></p>
@@ -9121,12 +9121,12 @@
 6	--	--	PUNCT	_	_	9	punct	_	_
 7	хоть	хоть	PART	_	_	9	advmod	_	_
 8	на	на	ADP	_	_	9	case	_	_
-9	миг	миг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	before=<rhyme-zone/>|SpaceAfter=No
+9	миг	миг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl:tmod	_	before=<rhyme-zone/>|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	</se><br/>
 
 # sent_id = xx__bergholz__bergh-308-6
 # text = Хотя б не стих, а только вздох и крик.
-1	Хотя	хотя	PART	_	_	4	advmod	_	before=<se><line_meter="Я5м"/>
+1	Хотя	хотя	PART	_	ExtPos=PART	4	advmod	_	before=<se><line_meter="Я5м"/>
 2	б	б	AUX	_	Mood=Cnd	1	fixed	_	_
 3	не	не	PART	_	Polarity=Neg	4	advmod	_	_
 4	стих	стихнуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -9141,7 +9141,7 @@
 # newpar
 # sent_id = xx__bergholz__bergh-308-7
 # text = Хотя бы шепот только или стон.
-1	Хотя	хотя	PART	_	_	3	advmod	_	before=<p_class="verse"><line_meter="Я5м"/><se>
+1	Хотя	хотя	PART	_	ExtPos=PART	3	advmod	_	before=<p_class="verse"><line_meter="Я5м"/><se>
 2	бы	бы	PART	_	_	1	fixed	_	_
 3	шепот	шепот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	только	только	PART	_	_	3	advmod	_	_
@@ -9151,7 +9151,7 @@
 
 # sent_id = xx__bergholz__bergh-308-8
 # text = Хотя б цепей твоих негромкий звон.
-1	Хотя	хотя	PART	_	_	3	advmod	_	before=<se><line_meter="Я5м"/>
+1	Хотя	хотя	PART	_	ExtPos=PART	3	advmod	_	before=<se><line_meter="Я5м"/>
 2	б	б	PART	_	_	1	fixed	_	_
 3	цепей	цепь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 4	твоих	твой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
@@ -9190,7 +9190,7 @@
 1	Луна	луна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	before=<p_class="verse"><line_meter="Я4ж"/><se>|SpaceAfter=No
 2	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	летунья	летунья	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
-4	непогоды	непогода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obj	_	before=<rhyme-zone/>|after=<br/>
+4	непогоды	непогода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	before=<rhyme-zone/>|after=<br/>
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	before=<line_meter="Я4м"/>
 6	кажет	казать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	/	/	PUNCT	_	_	9	punct	_	_
@@ -9327,7 +9327,7 @@
 7	Со	со	ADP	_	_	8	case	_	before=<line_meter="Я5м"/>
 8	смертью	смерть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
 9	близкой	близкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
-10	все	всё	ADV	_	Degree=Pos|PronType=Tot	12	advmod	_	_
+10	все	всё	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Tot	12	advmod	_	_
 11	еще	еще	ADV	_	Degree=Pos	10	fixed	_	_
 12	хитря	хитрить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	before=<rhyme-zone/>|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	<br/>
@@ -9885,7 +9885,7 @@
 # sent_id = xx__steiger__steig-091-2
 # text = До того, как в зеленый дым Солнце канет, и сумрак ляжет, Мы о лете еще твердим.
 1	До	до	ADP	_	_	2	case	_	before=<p_class="verse"><line_meter="Л3м 2*2*1*0"/><se>
-2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	SpaceAfter=No
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	19	obl:tmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	как	как	SCONJ	_	_	9	mark	_	_
 5	в	в	ADP	_	_	7	case	_	_
@@ -10123,7 +10123,7 @@
 # text = Там до весны завязли в небесах и бензовоз, и мушка дрозофила.
 1	Там	там	ADV	_	Degree=Pos|PronType=Dem	4	advmod	_	before=<p_class="verse"><line_meter="Я5м"/><se>
 2	до	до	ADP	_	_	3	case	_	_
-3	весны	весна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	весны	весна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl:tmod	_	_
 4	завязли	завязнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	в	в	ADP	_	_	6	case	_	_
 6	небесах	небо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	before=<rhyme-zone/>|after=<br/>
@@ -10678,7 +10678,7 @@
 17	познаний	познание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	<br/>
 19	И	и	CCONJ	_	_	24	cc	_	before=<line_meter="Я6м"/>
-20	все	всё	ADV	_	Degree=Pos|PronType=Tot	24	advmod	_	_
+20	все	всё	ADV	_	Degree=Pos|ExtPos=ADV|PronType=Tot	24	advmod	_	_
 21	же	же	PART	_	_	20	fixed	_	_
 22	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
 23	невольно	невольно	ADV	_	Degree=Pos	24	advmod	_	_
@@ -10722,12 +10722,12 @@
 26	галдят	галдеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	before=<rhyme-zone/>|after=<br/>
 27	Бегущие	бежать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	acl	_	before=<line_meter="Я5ж"/>
 28	с	с	ADP	_	_	29	case	_	_
-29	обеда	обед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+29	обеда	обед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl:tmod	_	_
 30	комсомольцы	комсомолец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	<br/>
 32	И	и	CCONJ	_	_	33	cc	_	before=<line_meter="Я6м"/>
 33	проводить	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	_
-34	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
+34	их	их	DET	_	Poss=Yes|PronType=Prs	35	det	_	_
 35	рой	рой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
 36	до	до	ADP	_	_	38	case	_	_
 37	самой	самый	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Emp	38	det	_	_
@@ -11106,7 +11106,7 @@
 18	,	,	PUNCT	_	_	19	punct	_	<br/>
 19	Обвив	обвить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	14	advcl	_	before=<line_meter="Я4м"/>|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	воскресшую	воскреснуть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	obj	_	SpaceAfter=No
+21	воскресшую	воскреснуть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	</se></p><p_class="date"><noindex>1911</noindex></p>
@@ -11145,7 +11145,7 @@
 13	пиля	пилить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	conj	_	_
 14	решетку	решетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
 15	уже	уже	ADV	_	Degree=Pos	16	advmod	_	_
-16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl:tmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	наверное	наверное	ADV	_	_	21	parataxis:discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -11202,7 +11202,7 @@
 2	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	det	_	_
 3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 4	пустяки	пустяк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
-5	по	по	ADP	_	_	8	case	_	_
+5	по	по	ADP	_	ExtPos=ADP	8	case	_	_
 6	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	fixed	_	_
 7	с	с	ADP	_	_	5	fixed	_	_
 8	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
@@ -11269,7 +11269,7 @@
 
 # sent_id = xx__pelevin_v__pelevin-002-9
 # text = Потому что в мире, который имеет свойство деваться непонятно куда, Лучше ни в чем не клясться, а одновременно говорить «Нет, нет» и «Да, да».
-1	Потому	потому	ADV	_	Degree=Pos|PronType=Dem	13	mark	_	before=<se><line_meter="Тк8м 2*1*2*2*1*2*3*2*0"/>
+1	Потому	потому	ADV	_	Degree=Pos|ExtPos=SCONJ|PronType=Dem	13	mark	_	before=<se><line_meter="Тк8м 2*1*2*2*1*2*3*2*0"/>
 2	что	что	SCONJ	_	_	1	fixed	_	_
 3	в	в	ADP	_	_	4	case	_	_
 4	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
@@ -11404,7 +11404,7 @@
 # sent_id = xx__okhapkin__okhapkin-013-5
 # text = Из года в годы Ныряет рыба, в воздухе плеща, И безответный вопль немой природы, Втекающий в язык моей свободы, Глядит луной, а жизнь даёт леща.
 1	Из	из	ADP	_	_	2	case	_	before=<se>
-2	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+2	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl:tmod	_	_
 3	в	в	ADP	_	_	4	case	_	_
 4	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	before=<rhyme-zone/>|after=<br/>
 5	Ныряет	нырять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	before=<line_meter="Я5м"/>
@@ -11690,14 +11690,14 @@
 8	припомнить	припомнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
 9	что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	8	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 10	:	:	PUNCT	_	_	13	punct	_	<br/>
-11	То	то	CCONJ	_	_	13	cc	_	before=<line_meter="Х4ж"/>
+11	То	то	CCONJ	_	ExtPos=CCONJ	13	cc	_	before=<line_meter="Х4ж"/>
 12	ли	ли	PART	_	_	11	fixed	_	_
 13	съесть	съесть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	parataxis	_	_
 14	сырок	сырок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 15	с	с	ADP	_	_	16	case	_	_
 16	ванилью	ваниль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	<br/>
-18	То	то	CCONJ	_	_	20	cc	_	before=<line_meter="Х4м"/>
+18	То	то	CCONJ	_	ExtPos=CCONJ	20	cc	_	before=<line_meter="Х4м"/>
 19	ли	ли	PART	_	_	18	fixed	_	_
 20	вычистить	вычистить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	conj	_	_
 21	пальто	пальто	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing	20	obj	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -11802,7 +11802,7 @@
 30	иной	иной	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Tot	31	det	_	_
 31	головой	голова	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	before=<rhyme-zone/>|after=<br/>
 32	хорошо	хороший	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	16	conj	_	before=<line_meter="Ан3ж"/>
-33	бы	бы	AUX	_	Mood=Cnd	32	fixed	_	_
+33	бы	бы	AUX	_	Mood=Cnd	32	aux	_	_
 34	для	для	ADP	_	_	36	case	_	_
 35	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
 36	счастья	счастье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	before=<rhyme-zone/>|after=<br/>
@@ -11815,10 +11815,10 @@
 43	городское	городской	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
 44	ненастье	ненастье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	nsubj	_	before=<rhyme-zone/>|after=<br/>
 45	и	и	CCONJ	_	_	46	cc	_	before=<line_meter="Ан3м"/>
-46	т.	так	ADV	_	Abbr=Yes|PronType=Dem	44	conj	_	_
+46	т.	так	ADV	_	Abbr=Yes|ExtPos=NOUN|PronType=Dem	44	conj	_	_
 47	д.	далее	ADV	_	Abbr=Yes	46	fixed	_	<noindex>[тэдэ̀]</noindex>|SpaceAfter=No
 48	и	и	CCONJ	_	_	49	cc	_	_
-49	т.	то	PRON	_	Abbr=Yes|PronType=Dem	44	conj	_	_
+49	т.	то	PRON	_	Abbr=Yes|ExtPos=NOUN|PronType=Dem	44	conj	_	_
 50	п.	подобный	ADJ	_	Abbr=Yes	49	fixed	_	<noindex>[тэпэ̀]</noindex>
 51	наизусть	наизусть	ADV	_	Degree=Pos	2	parataxis	_	before=<rhyme-zone/>|after=</se></p>
 
@@ -11833,7 +11833,7 @@
 6	ради	ради	ADP	_	_	5	case	_	_
 7	средь	средь	ADP	_	_	9	case	_	_
 8	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
-9	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	before=<rhyme-zone/>|after=<br/>
+9	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl:tmod	_	before=<rhyme-zone/>|after=<br/>
 10	дура	дура	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	before=<line_meter="Ан3ж"/>|SpaceAfter=No
 11	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	молодость	молодость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
@@ -11885,7 +11885,7 @@
 3	празднеством	празднество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	iobj	_	_
 4	отмечен	отметить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	before=<rhyme-zone/>|after=<br/>
 5	из	из	ADP	_	_	6	case	_	before=<line_meter="Я4ж"/>
-6	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 7	в	в	ADP	_	_	8	case	_	_
 8	век	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 9	твой	твой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
@@ -11928,7 +11928,7 @@
 13	,	,	PUNCT	_	_	17	punct	_	<br/>
 14	чтоб	чтоб	SCONJ	_	Mood=Cnd	17	mark	_	before=<line_meter="Я4ж"/>
 15	наших	наш	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	_
-16	душ	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obj	_	_
+16	душ	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
 17	увидеть	увидеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
 18	тени	тень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 19	!	!	PUNCT	_	_	5	punct	_	</se></p>
@@ -12258,7 +12258,7 @@
 13	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	кота	кот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	appos	_	_
 15	на	на	ADP	_	_	16	case	_	_
-16	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+16	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl:tmod	_	_
 17	ко	ко	ADP	_	_	18	case	_	_
 18	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
 19	привели	привести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -12394,7 +12394,7 @@
 12	--	--	PUNCT	_	_	21	punct	_	<br/>
 13	Черного	черный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	before=<line_meter="Д3м~Д3м 0*2*2*0|0*2*2*0"/>
 14	на	на	ADP	_	_	15	case	_	_
-15	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+15	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl:tmod	_	_
 16	кота	кот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
 17	в	в	ADP	_	_	18	case	_	_
 18	спальню	спальня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
