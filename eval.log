@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Russian-Poetry:
-commit b1fd222da55f8301dc0b077c6cbc21bee7af94f5
-Merge: 8c90afe 40c527f
+commit 2807bdf3131ca486d30a83daeae7629bdbb435c1
+Merge: 72fe3ef f23cc60
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ru_poetry'
+Language code (from CoNLL-U file name) = 'ru'
+Found the following data files: ru_poetry-ud-dev.conllu, ru_poetry-ud-test.conllu, ru_poetry-ud-train.conllu
 Size: counted 64112 of 64112 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.32126310778758.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,66 +19,39 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 40171 out of 64112 total words have one or more features.
+Features: 40199 out of 64112 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        241
-Udapi: found 241 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 64112 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-dev.conllu
-[Line 1467 Sent xix__homiakov__hom-073-3 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'Но и' does not have the 'ExtPos' feature
-[Line 1940 Sent xix__1860__1860-008-6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Да и' does not have the 'ExtPos' feature
-[Line 3037 Sent xix__1860__1860-137-12 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Что за' does not have the 'ExtPos' feature
-[Line 3557 Sent xix__surikov__surik-189-4 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'Что за' does not have the 'ExtPos' feature
-[Line 3597 Sent xix__surikov__surik-189-7 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'что за' does not have the 'ExtPos' feature
-[Line 3788 Sent xix__surikov__surik-175-3 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'Не то чтобы' does not have the 'ExtPos' feature
-[Line 4110 Sent xx__gorky__gorky-061-9 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'Как можно' does not have the 'ExtPos' feature
-[Line 4631 Sent xx__cvetaeva__cvet1-705-9 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Друг друга' does not have the 'ExtPos' feature
-[Line 4631 Sent xx__cvetaeva__cvet1-705-9 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Друг * друга'
-[Line 4898 Sent xx__xvostenko__xvost-270-2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'в виде' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 22
+[Line 4631 Sent xx__cvetaeva__cvet1-705-9]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Друг * друга'
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-test.conllu
-[Line 113 Sent xix__plesheev__plesh-029-8 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'друг друга' does not have the 'ExtPos' feature
-[Line 113 Sent xix__plesheev__plesh-029-8 Node 14]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 16] 'друг * друга'
-[Line 237 Sent xix__sluchevsky__sluc-480-5 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'Потому что' does not have the 'ExtPos' feature
-[Line 2028 Sent xix__kurochkin__kuroch-037-3 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'Сколь возможно' does not have the 'ExtPos' feature
-[Line 3670 Sent xix__1840__1840-140-5 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'самим собой' does not have the 'ExtPos' feature
-[Line 3807 Sent xix__1840__1840-230-3 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'как будто бы' does not have the 'ExtPos' feature
-[Line 3899 Sent xix__1840__1840-230-6 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'как будто' does not have the 'ExtPos' feature
-[Line 4255 Sent xx__pasternak__paster-370-5 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'Друг другу' does not have the 'ExtPos' feature
-[Line 4255 Sent xx__pasternak__paster-370-5 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'Друг * другу'
-[Line 4558 Sent xx__muni__muni-104-5 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 34
+[Line 113 Sent xix__plesheev__plesh-029-8]: [L3 Warning fixed-gap] Gaps in fixed expression [14, 16] 'друг * друга'
+[Line 3682 Sent xix__1840__1840-221-1]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'людей') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4255 Sent xx__pasternak__paster-370-5]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'Друг * другу'
+[Line 11764 Sent xx__kovenacky__koven-21-10]: [L3 Warning fixed-without-extpos] Fixed expression 'Самого себя' does not have the 'ExtPos' feature
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-train.conllu
-[Line 2128 Sent xix__ershov__ersh-085-2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'Да и' does not have the 'ExtPos' feature
-[Line 3502 Sent xix__tjutchev__tss-1992-1-6 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'сам себе' does not have the 'ExtPos' feature
-[Line 4540 Sent xix__1880__1880-274-3 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'Какого ни на есть' does not have the 'ExtPos' feature
-[Line 4644 Sent xix__1880__1880-245-5 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
-[Line 5616 Sent xix__1880__1880-154-9 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'всё ж' does not have the 'ExtPos' feature
-[Line 11245 Sent xx__silverage__silver-0856-3 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'Все ж' does not have the 'ExtPos' feature
-[Line 11444 Sent xx__silverage__silver-1209-6 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'друг друга' does not have the 'ExtPos' feature
-[Line 13198 Sent xx__silverage__silver-1215-1 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'потому что' does not have the 'ExtPos' feature
-[Line 13451 Sent xx__silverage__silver-0335-4 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
-[Line 13474 Sent xx__silverage__silver-0335-4 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'Как будто' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 54
+[Line 4990 Sent xix__1880__1880-334-10]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'свету') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17818 Sent xx__china__china-271-2]: [L3 Warning obl-should-be-nmod] The parent (node [19] 'света') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 21589 Sent xx__china__china-191-5]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'стремленьи') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 34592 Sent xx__prague__prag-634-4]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'друг * друге'
+[Line 40090 Sent xx__earl__earl-044-2]: [L3 Warning fixed-without-extpos] Fixed expression 'сами себе' does not have the 'ExtPos' feature
+[Line 41950 Sent xx__avantgarde__avan-0568-4]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'содрогании') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 6
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.602313108362875) = 0.154439258554583
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.962409533316696) = 0.296126010251291
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.809655127895733) * (availability=1) * (validity=1) = 0.809655127895733
-STARS = 4
-UD_Russian-Poetry	0.809655127895733	4
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.602313108362875) = 0.223078929023287
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.741764281041972) * (availability=1) * (validity=1) = 0.741764281041972
+STARS = 3.5
+UD_Russian-Poetry	0.741764281041972	3.5
