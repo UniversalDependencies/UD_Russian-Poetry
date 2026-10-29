@@ -2026,7 +2026,7 @@
 11	на	на	ADP	_	_	12	case	_	_
 12	свете	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	before=<rhyme-zone/>|after=<br/>
 13	Сколь	сколь	ADV	_	Degree=Pos|PronType=Rel	15	advmod	_	before=<line_meter="Х4м"/>
-14	возможно	возможный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	obl:pronmod	_	_
+14	возможно	возможный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	nmod:pronmod	_	_
 15	больше	много	ADV	_	Degree=Cmp|PronType=Tot	16	advmod	_	_
 16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl:tmod	_	before=<rhyme-zone/>|after=<br/>
 17	В	в	ADP	_	_	18	case	_	before=<line_meter="Х4ж"/>
@@ -11278,7 +11278,7 @@
 7	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 8	свойство	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 9	деваться	деваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	acl	_	_
-10	непонятно	непонятный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	obl:pronmod	_	_
+10	непонятно	непонятный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	nmod:pronmod	_	_
 11	куда	куда	ADV	_	Degree=Pos|PronType=Rel	9	advmod	_	before=<rhyme-zone/>|SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	<br/>
 13	Лучше	лучше	ADJ	_	Degree=Pos	0	root	_	before=<line_meter="Ак7м 0*2*1*3*5*1*2*0"/>

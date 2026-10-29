@@ -45905,7 +45905,7 @@
 3	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
 4	открыть	открыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
 5	как	как	ADV	_	Degree=Pos|PronType=Rel	7	advmod	_	_
-6	можно	можно	VERB	_	_	5	obl:pronmod	_	_
+6	можно	можно	VERB	_	_	5	nmod:pronmod	_	_
 7	шире	широко	ADV	_	Degree=Cmp	4	advmod	_	before=<rhyme-zone/>|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	<br/>
 9	Чтоб	чтоб	SCONJ	_	Mood=Cnd	10	mark	_	before=<line_meter="Я5ж"/>
