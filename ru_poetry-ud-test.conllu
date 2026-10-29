@@ -3679,7 +3679,7 @@
 2	перо	перо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	before=<rhyme-zone/>|after=<br/>
 4	С	с	ADP	_	_	5	case	_	before=<line_meter="Я4ж"/>
-5	умом	ум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	умом	ум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
 6	прекрасно	прекрасно	ADV	_	Degree=Pos	7	advmod	_	_
 7	выручает	выручать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	before=<rhyme-zone/>|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	</se><br/>
@@ -6152,14 +6152,14 @@
 11	была	быть	AUX	_	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	before=<rhyme-zone/>|SpaceAfter=No
 12	...	...	PUNCT	_	_	10	punct	_	</se></p><p_class="date"><noindex>1968</noindex></p>
 
-# newdoc = xx__kondratiev__kondr--209
+# newdoc = xx__kondratiev__kondr-209
 # newpar
-# sent_id = xx__kondratiev__kondr--209-1
+# sent_id = xx__kondratiev__kondr-209-1
 # text = Сестер кастальских благостыни Лишен, я Роком удален В изгнанье на брега Горыни.
 1	Сестер	сестра	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	кастальских	кастальский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	amod	_	_
 3	благостыни	благостыня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	before=<rhyme-zone/>|after=<br/>
-4	Лишен	лишить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl	_	before=<line_meter="Я4м"/>|SpaceAfter=No
+4	Лишен	лишить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	obl:depict	_	before=<line_meter="Я4м"/>|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
 7	Роком	рок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	_
@@ -6171,7 +6171,7 @@
 13	Горыни	Горынь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	12	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	</se><br/>
 
-# sent_id = xx__kondratiev__kondr--209-2
+# sent_id = xx__kondratiev__kondr-209-2
 # text = Забыл меня здесь Аполлон, И всеми позабыт я ныне.
 1	Забыл	забыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<line_meter="Я4м"/><se>
 2	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
@@ -6186,7 +6186,7 @@
 11	.	.	PUNCT	_	_	1	punct	_	</se></p>
 
 # newpar
-# sent_id = xx__kondratiev__kondr--209-3
+# sent_id = xx__kondratiev__kondr-209-3
 # text = Но верю, помнят про меня Не знающие света дня На берегах печальной Леты Мои знакомые поэты И ждут, молчание храня.
 1	Но	но	CCONJ	_	_	2	cc	_	before=<p_class="verse"><line_meter="Я4м"/><se>
 2	верю	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -11761,12 +11761,12 @@
 
 # sent_id = xx__kovenacky__koven-21-10
 # text = Самого себя забыл.
-1	Самого	сам	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Emp	3	obj	_	before=<se><line_meter="Х4м"/>
+1	Самого	сам	DET	_	Animacy=Anim|Case=Acc|ExtPos=PRON|Gender=Masc|Number=Sing|PronType=Emp	3	obj	_	before=<se><line_meter="Х4м"/>
 2	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	fixed	_	_
 3	забыл	забыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<rhyme-zone/>|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	</se></p>
 
-# newdoc = xx__gandlevsky__gandl-089&&&
+# newdoc = xx__gandlevsky__gandl-089
 # newpar
 # sent_id = xx__gandlevsky__gandl-089-1
 # text = чтобы липа к платформе вплотную обязательно чтобы сирень от которой неделю-другую ежегодно мозги набекрень и вселенная всенепременно по дороге с попойки домой раскрывается тайной мгновенной над садовой иной головой хорошо бы для полного счастья запах масляной краски и пусть прошумит городское ненастье и т. д.и т. п. наизусть

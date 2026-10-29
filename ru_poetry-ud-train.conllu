@@ -4987,7 +4987,7 @@
 
 # sent_id = xix__1880__1880-334-10
 # text = Все в свету проходят тучи мимо...
-1	Все	всё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	obl:float	_	before=<se><line_meter="Х5ж"/>
+1	Все	всё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nmod:float	_	before=<se><line_meter="Х5ж"/>
 2	в	в	ADP	_	_	3	case	_	_
 3	свету	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl:depict	_	_
 4	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -12146,9 +12146,9 @@
 8	пустыне	пустыня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	before=<rhyme-zone/>|SpaceAfter=No
 9	?	?	PUNCT	_	_	8	punct	_	</se></p><p_class="date"><noindex> [1906] </noindex></p>
 
-# newdoc = xx__silverage__silver-0662
+# newdoc = xx__1920__1920-279
 # newpar
-# sent_id = xx__silverage__silver-0662-1
+# sent_id = xx__1920__1920-279-1
 # text = Я не в разнеженной природе, Среди расцветшей красоты, -- Под дымным небом, на заводе, Ковал железные цветы.
 1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	не	не	PART	_	Polarity=Neg	5	advmod	_	_
@@ -12158,7 +12158,7 @@
 6	,	,	PUNCT	_	_	9	punct	_	<br/>
 7	Среди	среди	ADP	_	_	9	case	_	before=<line_meter="Я4м"/>
 8	расцветшей	расцвести	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	amod	_	_
-9	красоты	красота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+9	красоты	красота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	--	--	PUNCT	_	_	14	punct	_	<br/>
 12	Под	под	ADP	_	_	14	case	_	before=<line_meter="Я4ж"/>
@@ -12166,7 +12166,7 @@
 14	небом	небо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	на	на	ADP	_	_	17	case	_	_
-17	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+17	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
 18	,	,	PUNCT	_	_	14	punct	_	<br/>
 19	Ковал	ковать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<line_meter="Я4м"/>
 20	железные	железный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
@@ -12174,7 +12174,7 @@
 22	.	.	PUNCT	_	_	19	punct	_	</se></p>
 
 # newpar
-# sent_id = xx__silverage__silver-0662-2
+# sent_id = xx__1920__1920-279-2
 # text = Их не ласкало солнце юга И не баюкал лунный свет.
 1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	не	не	PART	_	Polarity=Neg	3	advmod	_	_
@@ -12188,7 +12188,7 @@
 10	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	</se><br/>
 
-# sent_id = xx__silverage__silver-0662-3
+# sent_id = xx__1920__1920-279-3
 # text = Вагранок огненная вьюга Звенящий обожгла букет.
 1	Вагранок	вагранка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	before=<se><line_meter="Я4ж"/>
 2	огненная	огненный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
@@ -12199,7 +12199,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	</se></p>
 
 # newpar
-# sent_id = xx__silverage__silver-0662-4
+# sent_id = xx__1920__1920-279-4
 # text = Где гул моторов груб и грозен, Где свист сирен, металла звон, Я перезвоном медных сосен Был очарован и влюблен.
 1	Где	где	ADV	_	Degree=Pos|PronType=Rel	4	advmod	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	гул	гул	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -12226,7 +12226,7 @@
 23	.	.	PUNCT	_	_	20	punct	_	</se></p>
 
 # newpar
-# sent_id = xx__silverage__silver-0662-5
+# sent_id = xx__1920__1920-279-5
 # text = Не в беспечальном хороводе -- В мозолях мощная ладонь, Неугасимый на заводе Горел под блузою огонь.
 1	Не	не	PART	_	Polarity=Neg	4	advmod	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	в	в	ADP	_	_	4	case	_	_
@@ -12248,7 +12248,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	</se></p>
 
 # newpar
-# sent_id = xx__silverage__silver-0662-6
+# sent_id = xx__1920__1920-279-6
 # text = Вздувал я горн рабочим гневом Коммунистической мечты И, опьянен его напевом, Ковал железные цветы.
 1	Вздувал	вздувать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	before=<p_class="verse"><line_meter="Я4ж"/><se>
 2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
@@ -17815,7 +17815,7 @@
 11	воде	вода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 12	оморочка	оморочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	before=<rhyme-zone/>|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	<br/>
-14	Вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	19	obl:float	_	before=<line_meter="Аф3ж 1*2*2*1"/>
+14	Вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	19	nmod:float	_	before=<line_meter="Аф3ж 1*2*2*1"/>
 15	--	--	PUNCT	_	_	19	punct	_	_
 16	точно	точно	PART	_	_	19	advmod	_	_
 17	из	из	ADP	_	_	19	case	_	_
@@ -21507,13 +21507,13 @@
 22	,	,	PUNCT	_	_	20	punct	_	_
 23	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	<br/>
-25	Яркий	яркий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	before=<line_meter="Х6м"/>
+25	Яркий	яркий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	before=<line_meter="Х6м"/>
 26	и	и	CCONJ	_	_	27	cc	_	_
 27	безличный	безличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	шумный	шумный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	_
+29	шумный	шумный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	conj	_	_
 30	и	и	CCONJ	_	_	31	cc	_	_
-31	чужой	чужой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+31	чужой	чужой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	</se></p>
 
 # newpar
@@ -21542,10 +21542,10 @@
 21	где	где	ADV	_	Degree=Pos|PronType=Rel	24	advmod	_	_
 22	ничто	ничто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	24	nsubj	_	_
 23	не	не	PART	_	Polarity=Neg	24	advmod	_	_
-24	свято	святой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	before=<rhyme-zone/>|SpaceAfter=No
+24	свято	святой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	conj	_	before=<rhyme-zone/>|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	<br/>
 26	Где	где	ADV	_	Degree=Pos|PronType=Rel	27	advmod	_	before=<line_meter="Х6м"/>
-27	звучит	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+27	звучит	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
 28	насмешкой	насмешка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	iobj	_	_
 29	звон	звон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
 30	колоколов	колокол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	before=<rhyme-zone/>|SpaceAfter=No
@@ -21586,7 +21586,7 @@
 # newpar
 # sent_id = xx__china__china-191-5
 # text = Весь в больном стремленьи, весь в больной тревоге, Ты сжигаешь силы в призрачной борьбе, Город, где скрестились пыльные дороги, Я в свой час последний вспомню о тебе.
-1	Весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	obl:float	_	before=<p_class="verse"><line_meter="Х6ж"/><se>
+1	Весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	nmod:float	_	before=<p_class="verse"><line_meter="Х6ж"/><se>
 2	в	в	ADP	_	_	4	case	_	_
 3	больном	больной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
 4	стремленьи	стремленье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl:depict	_	SpaceAfter=No
@@ -40087,7 +40087,7 @@
 16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
 17	отвечают	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	before=<rhyme-zone/>|after=<br/>
 18	не	не	PART	_	Polarity=Neg	19	advmod	_	before=<line_meter="Аф4ж 1*2*2*2*1"/>
-19	сами	сам	DET	_	Case=Nom|Number=Plur|PronType=Emp	17	iobj	_	_
+19	сами	сам	DET	_	Case=Nom|ExtPos=PRON|Number=Plur|PronType=Emp	17	iobj	_	_
 20	себе	себя	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	19	fixed	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	а	а	CCONJ	_	_	23	cc	_	_
@@ -41947,7 +41947,7 @@
 # text = Ты же вся в прозрачном содрогании, Вдоль колен уронив руку, Быстро рассекаешь И земли глухое молчание, И незримую мне поруку Нерасцветшего мая.
 1	Ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	before=<p_class="verse"><line_meter="Тк3д 2*1*3*2"/><se>
 2	же	же	PART	_	_	1	advmod	_	_
-3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	6	obl:float	_	_
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	6	nmod:float	_	_
 4	в	в	ADP	_	_	6	case	_	_
 5	прозрачном	прозрачный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	содрогании	содрогание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl:depict	_	before=<rhyme-zone/>|SpaceAfter=No

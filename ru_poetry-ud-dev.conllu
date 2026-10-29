@@ -11800,7 +11800,7 @@
 10	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
 11	вдыхаемой	вдыхать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
 12	тверди	твердь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	before=<rhyme-zone/>|after=<br/>
-13	Солнечный	солнечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	before=<line_meter="Д3м 0*2*2*0"/>
+13	Солнечный	солнечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	before=<line_meter="Д3м 0*2*2*0"/>
 14	пьет	пить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 15	кислород	кислород	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	before=<rhyme-zone/>|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	</se></p>
