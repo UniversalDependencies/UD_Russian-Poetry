@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Russian-Poetry:
-commit d1ca27e8ff61b95a08a3fdb3ec672c5a9725399b
+commit f588d9e6974ffb51a72b1f7ca2a3217c0f8e1985
+Merge: 56c8a77 137976d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:37:27 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ru_poetry'
 Language code (from CoNLL-U file name) = 'ru'
@@ -30,25 +30,14 @@ Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-test.conllu
 [Line 113 Sent xix__plesheev__plesh-029-8]: [L3 WARNING fixed-gap] Gaps in fixed expression [14, 16] 'друг * друга'
-[Line 3682 Sent xix__1840__1840-221-1]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'людей') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 4255 Sent xx__pasternak__paster-370-5]: [L3 WARNING fixed-gap] Gaps in fixed expression [8, 10] 'Друг * другу'
-[Line 11764 Sent xx__kovenacky__koven-21-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'Самого себя' does not have the 'ExtPos' feature
-Warnings: 3
-SYNTAX errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
-/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-train.conllu
-[Line 4990 Sent xix__1880__1880-334-10]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'свету') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 17818 Sent xx__china__china-271-2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [19] 'света') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 21589 Sent xx__china__china-191-5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'стремленьи') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 34592 Sent xx__prague__prag-634-4]: [L3 WARNING fixed-gap] Gaps in fixed expression [10, 12] 'друг * друге'
-[Line 40090 Sent xx__earl__earl-044-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'сами себе' does not have the 'ExtPos' feature
-[Line 41950 Sent xx__avantgarde__avan-0568-4]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'содрогании') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 Warnings: 2
-SYNTAX errors: 4
-*** FAILED *** with 4 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-Poetry/ru_poetry-ud-train.conllu
+[Line 34592 Sent xx__prague__prag-634-4]: [L3 WARNING fixed-gap] Gaps in fixed expression [10, 12] 'друг * друге'
+Warnings: 1
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -56,6 +45,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
-(TOTAL score=0.741764281041972) * (availability=1) * (validity=0.01) = 0.00741764281041972
-STARS = 0
-UD_Russian-Poetry	0.00741764281041972	0
+(TOTAL score=0.741764281041972) * (availability=1) * (validity=1) = 0.741764281041972
+STARS = 3.5
+UD_Russian-Poetry	0.741764281041972	3.5
