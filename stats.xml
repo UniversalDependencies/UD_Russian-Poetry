@@ -34,7 +34,7 @@
     <tag name="X">55</tag><!-- е, и, сань, цю, Dànse, EIFEL, FANDANGO, IMPROMPTU, In, Jesekiila -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="78">
+  <feats unique="79">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PRON,PROPN">67</feat><!-- А., В., Н., п., т., М., С., г., д., И. -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2182</feat><!-- кто, люди, друг, мать, птицы, всех, бог, кого, кто-то, все -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">15576</feat><!-- что, все, сердце, жизнь, это, день, ночь, всё, ветер, мир -->
@@ -58,6 +58,7 @@
     <feat name="ExtPos" value="DET" upos="PRON">4</feat><!-- что -->
     <feat name="ExtPos" value="NOUN" upos="ADV,DET,PRON">16</feat><!-- друг, сам, самим, т. -->
     <feat name="ExtPos" value="PART" upos="PART">8</feat><!-- хотя, Лишь, только -->
+    <feat name="ExtPos" value="PRON" upos="DET">2</feat><!-- Самого, сами -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,SCONJ">24</feat><!-- потому, как, С, Так, будто, хотя -->
     <feat name="ExtPos" value="VERB" upos="PRON">8</feat><!-- все, всё -->
     <feat name="Foreign" value="Yes" upos="PART,X">55</feat><!-- е, и, сань, цю, Dànse, EIFEL, FANDANGO, IMPROMPTU, In, Jesekiila -->
@@ -115,9 +116,9 @@
     <feat name="Voice" value="Pass" upos="VERB">619</feat><!-- дано, сказано, приказано, рожденный, занят, лишен, нарисован, опущенных, очарован, покинутый -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="49">
-    <dep name="acl">441</dep>
-    <dep name="acl:relcl">212</dep>
+  <deps unique="50">
+    <dep name="acl">440</dep>
+    <dep name="acl:relcl">211</dep>
     <dep name="advcl">852</dep>
     <dep name="advmod">4010</dep>
     <dep name="amod">4705</dep>
@@ -128,7 +129,7 @@
     <dep name="cc">3071</dep>
     <dep name="ccomp">181</dep>
     <dep name="compound">4</dep>
-    <dep name="conj">4962</dep>
+    <dep name="conj">4961</dep>
     <dep name="cop">171</dep>
     <dep name="csubj">155</dep>
     <dep name="csubj:pass">8</dep>
@@ -145,18 +146,19 @@
     <dep name="iobj">1348</dep>
     <dep name="list">1</dep>
     <dep name="mark">639</dep>
-    <dep name="nmod">2493</dep>
+    <dep name="nmod">2496</dep>
+    <dep name="nmod:float">4</dep>
+    <dep name="nmod:pronmod">4</dep>
     <dep name="nsubj">5278</dep>
     <dep name="nsubj:outer">1</dep>
     <dep name="nsubj:pass">180</dep>
     <dep name="nummod">35</dep>
     <dep name="nummod:gov">111</dep>
     <dep name="obj">2304</dep>
-    <dep name="obl">4010</dep>
+    <dep name="obl">4009</dep>
     <dep name="obl:agent">131</dep>
-    <dep name="obl:depict">23</dep>
-    <dep name="obl:float">51</dep>
-    <dep name="obl:pronmod">4</dep>
+    <dep name="obl:depict">24</dep>
+    <dep name="obl:float">47</dep>
     <dep name="obl:tmod">333</dep>
     <dep name="orphan">70</dep>
     <dep name="parataxis">745</dep>
